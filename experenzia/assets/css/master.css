@@ -1,0 +1,997 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTML Tag Stylling */
+
+* {
+	outline: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font: 14px 'Avenir W02', sans-serif;
+	/* color: #777777; */
+	overflow: hidden;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	font-size: 60px;
+        color: #ffffff;
+	font-family: 'Avenir W02', sans-serif;
+	font-weight: 300;
+        font-type: normal;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #152244;
+}
+
+::-webkit-input-placeholder {
+   color: #878787;
+}
+
+/* :-moz-placeholder { Firefox 18-
+   color: #878787;  
+}
+
+::-moz-placeholder {  Firefox 19+
+   color: #878787;  
+}
+
+:-ms-input-placeholder {  
+   color: #878787;  
+} */
+/* HTML Tag Stylling end */
+
+/* Some other most usaged classes */
+
+.container {
+	width: 960px !important;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.width-97 {
+	width: 97% !important;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+.light {
+	color: #f6f0d6;
+}
+
+.dark {
+	color: #f55950;
+}
+
+.white-bg {
+	background: #fff !important;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.relative {
+	position: relative;
+}
+
+.one-third {
+	width: 900px;
+	float: left;
+}
+
+.one-fourth {
+	width: 300px;
+	float: left;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background: #dfdfdf;
+	margin: 15px 0;
+}
+
+.show-hide {
+	display: none;
+}
+
+/* Some other most used classes end */
+
+/* Home page stylling */
+
+.home {
+	background: url(../images/bg.jpg) no-repeat 50% 50%;
+}
+
+/* home page stylling */
+
+/* Header stylling start here */
+
+header {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	background: rgba(0,0,0,0);
+	color: #fff;
+	padding: 15px 0px;
+}
+
+header .logo {
+	background: url(../images/logo.png) no-repeat 0 0;
+	width: 221px;
+	height: 43px;
+	display: inline-block;
+	text-indent: -999999px;
+	float: left;
+}
+
+header .navigation {
+	float: right;
+	margin-top: 12px;
+}
+
+header .navigation li {
+	display: inline-block;
+	font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+header .navigation li:last-child {
+	margin-right: 0px;
+}
+
+header .navigation li a {
+	color: #fff;
+}
+
+header .navigation li a:hover {
+	color: #f04023;
+	text-decoration: none;
+}
+
+header .navigation li a.sub-nav {
+	background: url(../images/navigation-lines.png) no-repeat 0 0;
+	width: 24px;
+	height: 19px;
+	display: block;
+	text-indent: -999999px;
+}
+
+/* Section stylling start here */
+
+section {
+	position: absolute;
+	width: 100%;
+	top: 17%;
+	color: #fff;
+	text-align: center;
+}
+
+/* section .tag-line {
+	font-family: 'Avenir W02', sans-serif;
+	font-size: 60px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: -10px;
+	font-weight: 300;
+        font-style: normal;
+}
+
+section .tag-line sup {
+	font-size: 10px;
+	position: absolute;
+	top: 0px;
+} */
+
+section .nav-buttons {
+	margin-top: 45px;
+}
+
+section .nav-buttons ul {
+	list-style: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+section .nav-buttons ul li {
+	display: inline-block;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+section .nav-buttons ul li:last-child {
+	margin-right: 0px;
+}
+
+section .nav-buttons ul li a {
+	display: block;
+	width: 70px;
+	background: url(../images/nav-buttons.png) no-repeat;
+	padding-top: 80px;
+	font-size: 13px;
+	font-family: 'Avenir W02', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+section .nav-buttons ul li a:hover {
+	text-decoration: none;
+	color: #f04023;
+}
+
+section .nav-buttons ul li a.flights {
+	background-position: 0px 0px;
+}
+
+section .nav-buttons ul li a.flights:hover {
+	background-position: -556px 0px;
+}
+
+section .nav-buttons ul li a.hotels {
+	background-position: -91px 0px;
+}
+
+section .nav-buttons ul li a.hotels:hover {
+	background-position: -647px 0px;
+}
+
+section .nav-buttons ul li a.vacation {
+	background-position: -182px 0px;
+}
+
+section .nav-buttons ul li a.vacation:hover {
+	background-position: -738px 0px;
+}
+
+section .nav-buttons ul li a.holidays {
+	background-position: -273px 0px;
+}
+
+section .nav-buttons ul li a.holidays:hover {
+	background-position: -829px 0px;
+}
+
+section .nav-buttons ul li a.cruise {
+	background-position: -366px 0px;
+}
+
+section .nav-buttons ul li a.cruise:hover {
+	background-position: -922px 0px;
+}
+
+section .nav-buttons ul li a.car-rental {
+	background-position: -461px 0px;
+}
+
+section .nav-buttons ul li a.car-rental:hover {
+	background-position: -1017px 0px;
+}
+
+/* Section stylling end here */
+
+/* Home page form stylling start hete */
+
+#flight-search {
+	width: 400px;
+}
+
+#hotel-search {
+	width: 400px;
+}
+
+#vacation-search {
+	width: 400px;
+}
+
+#holiday-search {
+	width: 400px;
+}
+
+#login-form {
+	width: 275px;
+}
+
+#signup-form {
+	width: 275px;
+}
+
+#signup-email {
+	width: 275px;
+}
+
+#contact {
+	width: 275px;
+}
+
+.flight-search {
+	overflow: hidden;
+	color: #757575;
+}
+
+.flight-search .flight-form {
+	width: 99.5%;
+}
+
+.flight-search .flight-form .flight-icon {
+	background: url(../images/flight-icon.png) no-repeat 0 0;
+	display: inline-block;
+	padding: 13px 0px 13px 52px;
+	color: #ef4224;
+	font-size: 17px;
+}
+
+.flight-search .flight-form .hotel-icon {
+	background: url(../images/hotel-icon.png) no-repeat 0 0;
+	display: inline-block;
+	padding: 13px 0px 13px 52px;
+	color: #ef4224;
+	font-size: 17px;
+}
+
+.flight-search .flight-form .vacation-icon {
+	background: url(../images/vacation-icon.png) no-repeat 0 0;
+	display: inline-block;
+	padding: 13px 0px 13px 52px;
+	color: #ef4224;
+	font-size: 17px;
+}
+
+.flight-search .flight-form .holiday-icon {
+	background: url(../images/holiday-icon.png) no-repeat 0 0;
+	display: inline-block;
+	padding: 13px 0px 13px 52px;
+	color: #ef4224;
+	font-size: 17px;
+}
+
+.flight-search .flight-form .weather {
+	background: url(../images/weather-icon.png) no-repeat 0 0;
+	display: inline-block;
+	font-weight: 500;
+	padding: 4px 0px 3px 46px;
+	font-size: 16px;
+	font-family: 'Avenir W02', sans-serif;
+}
+
+.flight-search .flight-form .full-width {
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.flight-search .flight-form .full-width:first-child {
+	margin-bottom: 20px;
+}
+
+.flight-search .flight-form .full-width:last-child {
+	margin-bottom: 0px;
+}
+
+.flight-search .flight-form .full-width input[type="text"], .flight-search .flight-form .full-width select {
+	width: 100%;
+	padding: 7px 5px;
+	border: 1px solid #878787;
+	color: #878787;
+	background: transparent;
+	font-size: 14px !important;
+	font-family: 'Avenir W02',sans-serif !important;
+        font-weight: 300;
+        font-type: normal;
+	border-radius: 3px;
+}
+
+.flight-search .flight-form .full-width input[name="type"] {
+	display: none;
+}
+
+.flight-search .flight-form .radio-label {
+	width: 39.3%;
+	border: 1px solid #878787;
+	padding: 7px 5px;
+	color: #878787;
+	float: left;
+	font-size: 14px;
+	font-family: 'Avenir W02', sans-serif;
+	font-weight: 300;
+    font-style: normal;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.flight-search .flight-form .ui-datepicker-trigger {
+	display: inline-block;
+	margin-left: 7px;
+	width: 32px;
+	height: 32px;
+	border: 0px;
+	text-indent: -999999px;
+	background: url(../images/calender-icon-big.png) no-repeat 0 0;
+}
+
+.flight-search .flight-form .last {
+	border-left: 0px;
+}
+
+.flight-search .flight-form .radio-label:hover {
+	background: #f13f25;
+	color: #fff;
+}
+
+.flight-search .flight-form input[type="radio"]:checked + label {
+	background: #f13f25;
+	color: #fff;
+}
+
+.flight-search .flight-form .half-width {
+	width: 48.5% !important;
+	display: inline-block !important;
+}
+
+.flight-search .flight-form .half-width:first-child {
+	margin-right: 2% !important;
+}
+
+.flight-search .flight-form .full-width input[type="submit"] {
+	width: 100%;
+	padding: 6px 5px;
+	border: 0px;
+	color: #fff;
+	text-align: center;
+	background: #ef4023;
+	font-size: 14px;
+	font-family: 'Avenir W02', sans-serif;
+	font-weight: 300;
+	border-radius: 3px;
+}
+
+.flight-search .flight-form .three-column {
+	width: 32% !important;
+	margin-right: 2% !important;
+	float: left !important;
+}
+
+.flight-search .flight-form .three-column:last-child {
+	margin-right: 0% !important;
+}
+
+.flight-search .flight-form .three-column input[type="submit"] {
+	width: 100%;
+	padding: 6px 5px;
+	border: 0px;
+	color: #fff;
+	text-align: center;
+	background: #ef4023;
+	font-size: 14px;
+	font-family: 'Avenir W02', sans-serif;
+	font-weight: 300;
+	border-radius: 3px;
+}
+
+.flight-search .info-container {
+	position:absolute;
+	width: 170px;
+	right: -173px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.flight-search .info-container .vertical-center {
+	display: block;
+	transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+}
+
+.flight-search .info-container .text-container {
+	/* border: 0px solid #999999; */
+	border-radius: 3px;
+	padding: 8px 25px;
+	font-size: 12px;
+	font-family: 'Avenir W02',sans-serif;
+	color: #ffffff;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 4px;
+	background: rgba(153,153,153,0.5);
+	height: 55px;
+}
+
+.flight-search .info-container .text-container .date {
+	display: block;
+	width: 100%;
+	margin-bottom: 3px;
+	font-size: 12px;
+	font-family: 'Avenir W02', sans-serif;
+	color: #f69426;
+	font-weight:300;
+	text-align: center;
+        text-transform: capitalize;
+}
+
+.login-form .full-width {
+	margin-bottom: 10px;
+	position: relative;
+        font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.login-form .full-width:last-child {
+	margin-bottom: 0px;
+        font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.login-form .fb-login {
+	background: url(../images/login-facebook-button.png) no-repeat 0 0;
+	display: block;
+	width: 275px;
+	height: 36px;
+	text-indent: -999999px;
+}
+
+.login-form .fb-signup {
+	background: url(../images/signup-with-facebook.png) no-repeat 0 0;
+	display: block;
+	width: 275px;
+	height: 36px;
+	text-indent: -999999px;
+}
+
+.login-form .google-login {
+	border: 1px solid #8c8c8c;
+	padding: 5px 0px;
+	display: block;
+	width: 100%;
+	text-align: center;
+        font-family: 'Avenir W02', sans-serif !important;
+        font-weight: 300;
+        font-style: normal;
+	color: #878787;
+	border-radius: 3px;
+}
+
+.login-form .forgot-pw {
+	color: #ef4023;
+        margin-bottom: 10px;
+	position: relative;
+        font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.login-form input[type="text"], .login-form input[type="email"], .login-form input[type="password"], .login-form textarea {
+	width: 100%;
+	padding: 7px 5px;
+	border: 1px solid #878787;
+	color: #878787;
+	background: transparent;
+	font-size: 14px !important;
+	font-family: 'Avenir W02', sans-serif !important;
+        font-weight: 300;
+        font-style: normal;
+	border-radius: 3px;
+}
+
+.login-form textarea {
+	height: 90px;
+        font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.login-form input[type="submit"] {
+	width: 100%;
+	padding: 6px 5px;
+	border: 0px;
+	color: #fff;
+	text-align: center;
+	background: #ef4023;
+	font-size: 14px;
+	font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+	border-radius: 3px;
+}
+
+.login-form span.divider {
+	display: block;
+	background: url(../images/divider.png) no-repeat 50% 50%;
+	color: #878787;
+	text-align: center;
+	height: auto;
+	margin: 0px;
+	font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.login-form .signup-email {
+	background: url(../images/mail-icon.png) no-repeat 0 3px;
+	padding-left: 30px;
+	color: #878787;
+        font-size: 14px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+label.error {
+	position: absolute;
+	top: -28px;
+	left: 10px;
+	text-align: center;
+	font-weight: 300;
+	padding: 5px 9px;
+	background: #fff;
+	border: 1px solid #ef4023;
+}
+
+label.error:after {
+	border: inset 6px;
+	border-color: #ef4023 transparent transparent transparent;
+	border-top-style: solid;
+	margin-left: -6px;
+	left: 50%;
+	bottom: -12px;
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+}
+
+#flight-class {
+	text-transform: capitalize;
+}
+
+/* Home page form stylling end here */
+
+/* Footer stylling start here */
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background: rgba(0,0,0,0.6);
+	color: #666666;
+	padding: 15px 0px;
+}
+
+footer .copyright {
+	margin-top: 5px;
+	font-size: 12px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+footer .right ul {
+	list-style: none;
+	margin-bottom: 0px;
+}
+
+footer .right ul li {
+	display: inline-block;
+	margin-right: 10px;
+        font-family: 'Avenir W02', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+	font-size: 14px;
+	vertical-align: middle
+}
+
+footer .right ul li:last-child {
+	margin-right: 0px;
+}
+
+footer .right ul li a {
+	color: #666666;
+}
+
+footer .right ul li a:hover {
+	color: #f04023;
+	text-decoration: none;
+}
+
+footer .right ul li a.social-media {
+	width: 26px;
+	height: 26px;
+      	display: inline-block;
+	margin-right: 5px;
+	text-indent: 999999px;
+	background: url(../images/social-media.png) no-repeat;
+}
+
+footer .right ul li a.social-media:last-child {
+	margin-right: 0px;
+}
+
+footer .right ul li a.fb {
+	background-position: 0px 0px;
+}
+
+footer .right ul li a.fb:hover {
+	background-position: 0px -26px;
+}
+
+footer .right ul li a.twitter {
+	background-position: -32px 0px;
+}
+
+footer .right ul li a.twitter:hover {
+	background-position: -32px -26px;
+}
+
+footer .right ul li a.gplus {
+	background-position: -64px 0px;
+}
+
+footer .right ul li a.gplus:hover {
+	background-position: -64px -26px;
+}
+
+/* Footer stylling end here */
+
+/* Plugin styling */
+
+.ui-widget {
+	font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.ui-widget-content {
+	border: 0px !important;
+	border-radius: 0px !important;
+	background: transparent !important;
+}
+
+.ui-tabs .ui-tabs-nav {
+	padding: 0px !important;
+}
+
+#tabs2  .ui-tabs-nav li {
+	display: none !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+	padding: 0px !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border-radius: 0px !important;
+	border: 0px !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: transparent !important;
+}
+
+.ui-widget-header {
+	background: transparent !important;
+	border-radius: 0px !important;
+	border: 0px !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	margin: 0px !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	padding: 0px !important;
+	padding-bottom: 28px;
+	width: auto !important;
+	margin-right: 20px !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-state-active {
+	padding-bottom: 25px !important;
+	border-bottom: 3px solid #ff734b  !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-state-active a {
+	color: #ff734b;
+	outline: none !important;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	font: 24px 'Avenir W02', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+	color: #666666;
+	padding: 0px !important;
+	padding-right: 20px !important;	
+	border-right: 1px solid #d9d9d9;
+	outline: none;
+}
+
+.ui-tabs .ui-tabs-nav li:last-child .ui-tabs-anchor {
+	padding-right: 0px !important;
+	margin-right: 0px !important;
+	border-right: 0px solid #d9d9d9;
+}
+
+#ui-datepicker-div, #datepicker {
+	font-family: 'Avenir W02', sans-serif;
+        font-weight: 300;
+	font-size: 14px;
+	background: #fff !important;
+	border: 1px solid #d9d9d9;
+	box-shadow: rgb(136, 136, 136) 0px 0px 8px;
+}
+
+.ui-datepicker th {
+	font-weight: 300;
+}
+
+#ui-datepicker-div a.ui-state-active, #datepicker a.ui-state-active, #ui-datepicker-div a.ui-state-hover {
+	background: #f04023 !important;
+	color: #fff;
+}
+
+#ui-datepicker-div a.ui-state-hover, #datepicker a.ui-state-hover {
+	background: #f04023;
+	color: #fff;
+}
+
+.date-range-selected {
+	background: #f04023;
+}
+
+.date-range-selected a {
+	color: #fff;
+}
+
+.ui-datepicker-year, .ui-datepicker-month {
+	font-weight: normal !important;
+}
+
+.ui-datepicker-next span {
+	background: url(../images/calender-icon.png) no-repeat 0 0 !important;
+}
+
+#ui-datepicker-div .ui-datepicker-header a.ui-datepicker-prev-hover, #datepicker .ui-datepicker-header a.ui-datepicker-prev-hover {
+	top: 2px !important;
+	left: 2px !important;
+}
+
+#ui-datepicker-div .ui-datepicker-header a.ui-datepicker-next-hover, #datepicker .ui-datepicker-header a.ui-datepicker-next-hover {
+	top: 2px !important;
+	right: 2px !important;
+}
+
+#ui-datepicker-div .ui-datepicker-header a.ui-state-hover, #ui-datepicker-div .ui-datepicker-header a.ui-state-hover, #datepicker .ui-datepicker-header a.ui-state-hover, #datepicker .ui-datepicker-header a.ui-state-hover {
+	background: #fff !important;
+	background-position: 0 0 !important;
+	border: 0px !important;
+}
+
+.ui-datepicker-prev span {
+	background: url(../images/calender-icon.png) no-repeat 0px -16px !important;
+}
+
+.ui-autocomplete {
+	z-index: 999999999 !important;
+	margin-top: 23px !important;
+	background: #fff !important;
+	border: 1px solid #d9d9d9 !important;
+	box-shadow: rgb(220, 220, 220) 0px 0px 10px;
+	overflow-x: hidden !important;
+	overflow-y: scroll !important;
+	max-height: 250px !important;
+}
+
+.ui-autocomplete li {
+	padding: 10px 20px !important;
+	background: none !important;
+	margin: 0px !important;
+	border: 0px !important;
+	font-size: 12px !important;
+	font-family: 'Avenir W02',sans-serif;
+        Font-weight: 300;
+        font-style: normal;
+	border-bottom: 1px solid #ebebeb !important;
+	
+}
+
+.ui-autocomplete li:hover {
+	background-image: none !important;
+	background-color: #ef4023 !important;
+	color: #fff !important;
+}
+
+.ui-autocomplete li.ui-state-focus {
+	background: #ef4023 !important;
+	color: #fff !important;
+}
+
+.ui-autocomplete-loading {
+	background: transparent url("../images/loader-small.gif") right center no-repeat !important;
+}
+
+.pac-container {
+	z-index: 9999999 !important;
+}
+
+.daterangepicker_start_input, .daterangepicker_end_input {
+	display: none !important;
+}
